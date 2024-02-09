@@ -1,0 +1,99 @@
+.encabezado {
+   background-color: #bbbbbb;
+   padding: 20px 0;
+}
+.caja {
+   width: 940px;
+   position: relative;
+   margin: 0 auto;
+}
+nav {
+   position: absolute;
+   top: 110px;
+   right: 0;
+}
+nav li {
+   display: inline;
+   margin: 0 0 0 15px;
+}
+nav a {
+   text-transform: uppercase;
+   color: #000000;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+}
+nav a:hover {
+   color: #c78c19;
+   text-decoration: underline;
+}
+
+.productos {
+   width: 940px;
+   margin: 0 auto;
+   padding: 50px;
+}
+
+.producto {
+   display: inline-block;
+   width: 30%;
+   text-align: center;
+   vertical-align: top;
+   /* background: #cccccc; */
+   margin: 0 1.5%;
+   padding: 30px 20px;
+   box-sizing: border-box;
+   align-items: center;
+   /*bordes*/
+   border: 2px solid #000000;
+   /* border-width: 2px;
+   border-style: solid;
+   border-color: #000000; */
+   border-radius: 10px;
+}
+
+.producto:hover {
+   border-color: #c78c19;
+   border-width: 5px;
+   /* background-color: #c68c00; */
+}
+.producto:hover h2{
+   font-size: 30px;
+}
+.producto:active {
+   border-color: #088c19;
+}
+
+.producto h2 {
+   text-transform: capitalize;
+   font-size: 25px;
+   color: #000000;
+   font-weight: bold;
+}
+
+/* .producto h2:hover{
+   font-size: 36px;
+} */
+
+.producto-descripcion {
+   font-size: 18px;
+}
+
+.producto-precio {
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+
+footer {
+   background: url(img/bg.jpg);
+   padding: 40px;
+   text-align: center;
+   align-items: center;
+}
+
+.copyright{
+   margin:20px;
+   color:#FFFFFF;
+   font-size: 13px;
+}
